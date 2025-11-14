@@ -1,0 +1,18 @@
+[
+  {
+    "file": "app.py",
+    "status": "ok"
+  },
+  {
+    "file": "src/generate_data.py",
+    "status": "ok"
+  },
+  {
+    "file": "src/train_model.py",
+    "status": "ok"
+  },
+  {
+    "file": "src/utils.py",
+    "status": "ok"
+  }
+]

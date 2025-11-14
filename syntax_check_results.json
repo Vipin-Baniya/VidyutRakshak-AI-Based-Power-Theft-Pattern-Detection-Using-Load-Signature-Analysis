@@ -1,0 +1,6 @@
+{
+  "app.py": "OK",
+  "src/generate_data.py": "OK",
+  "src/train_model.py": "OK",
+  "src/utils.py": "OK"
+}

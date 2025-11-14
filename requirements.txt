@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+streamlit
+folium
+streamlit-folium
+shap
+prophet
+xgboost
+seaborn
+
+openai
+reportlab

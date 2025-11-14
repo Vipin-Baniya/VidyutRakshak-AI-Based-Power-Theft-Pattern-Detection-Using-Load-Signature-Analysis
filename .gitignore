@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtualenv
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Data / models - keep data example but ignore heavy models by default
+models/
+outputs/
+
+# Docker
+.env
+*.env

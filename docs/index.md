@@ -1,3 +1,5 @@
+# Power Theft Detection
+
 # AI-Based Power Theft Pattern Detection Using Load Signature Analysis
 
 This repository contains a prototype end-to-end project for detecting electricity theft using load signature analysis and ML.
@@ -49,26 +51,3 @@ streamlit run app.py
 
 ## License
 MIT
-
-
-## Deployment notes (updated)
-- The `models/` folder in the repository contains pre-trained artifacts (`power_theft_model.joblib`, `scaler.joblib`, `feature_columns.joblib`) so the app starts instantly on Streamlit Cloud.
-- The Streamlit UI also supports retraining:
-  - **Retrain (fast demo)** — quick retrain using smaller synthetic data (meters=50, days=30). Suitable for Cloud or demo environments.
-  - **Full retrain (slow)** — full training (meters=200, days=90). Use only when you need a full model refresh (may take longer).
-- To retrain from the command line, run:
-```
-python src/train_model.py --fast        # fast demo retrain
-python src/train_model.py --full        # full retrain
-```
-
-
-## AI Suite Added
-- LLM-style explanations (templated) for suspicious meters
-- Forecasting using Prophet (fallback to rolling mean)
-- Fast ensemble training (RandomForest, optional XGBoost)
-- Clustering of meters (KMeans)
-- Realtime alerts simulation
-- HTML forensic report generation
-
-Use the Streamlit UI -> AI Suite to access these features.
